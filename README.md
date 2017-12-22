@@ -1,6 +1,8 @@
 # fuction
  //1: 第一种
+ 
     let arr = [1,1,2,2,3]
+    
     Array.prototype.unique1= function(){
         var newArr =[];
         for(var i=0; i< this.length; i++){
